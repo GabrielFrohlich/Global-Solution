@@ -475,6 +475,28 @@ h6 {
     background-color: rgba(33, 37, 41, 0.03);
   }
 
+  .resource-img{
+    width: 400px;
+  }
+
+  .recursos-1-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .recursos-1-text p{
+    text-align: left;
+  }
+
+  .recursos-1-text h3{
+    text-align: left;
+  }
+  
+  #recursos-2 {
+    background-color: #F5F6F8;
+  }
+
   .mobile-nav-active {
     overflow: hidden;
   }
