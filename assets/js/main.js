@@ -9,8 +9,10 @@
 (function() {
   "use strict";
 
-  const teste = document.getElementById('form-canal')
-  console.log(teste)
+  document.getElementById('form-canal').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+  })
 
   /**
    * Apply .scrolled class to the body as the page is scrolled down
