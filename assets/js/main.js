@@ -9,11 +9,6 @@
 (function() {
   "use strict";
 
-  document.getElementById('form-canal').addEventListener('submit', function(e) {
-    e.preventDefault();
-
-  })
-
   /**
    * Apply .scrolled class to the body as the page is scrolled down
    */
