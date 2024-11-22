@@ -9,6 +9,10 @@
 (function() {
   "use strict";
 
+  document.getElementById('form-canal').on('submit',function(e){
+  e.preventDefault()
+  });
+
   /**
    * Apply .scrolled class to the body as the page is scrolled down
    */
